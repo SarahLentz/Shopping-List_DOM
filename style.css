@@ -1,0 +1,72 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  justify-items: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.done {
+  text-decoration: line-through;
+  /* color: purple;
+  font-weight: bold; */
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  font-family: Montserrat;
+  font-size: 1.25em;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid gray;
+  align-items: center;
+  text-align: center;
+  width: 35vw;
+}
+
+input {
+  font-family: Montserrat;
+  font-size: 1.25em;
+}
+
+button {
+  margin-left: 10px;
+  font-family: "Montserrat";
+  margin-right: auto;
+  font-size: 1.15rem;
+}
+
+hr {
+  margin: 20px auto;
+}
+
+.coolTitle {
+  text-align: center;
+  font-family: "Oswald", Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: -1px -1px 0 firebrick, -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick, -4px -4px 0 firebrick, -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick, -7px -7px 0 firebrick, -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
